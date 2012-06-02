@@ -168,35 +168,4 @@ HackerNews =
   {
     HackerNews.keyCheck(e);
   });
-
-  // infinite scroll
-  // console.log('loading inf scroll');
-  // console.log(typeof $.fn.infinitescroll);
-  // $('.content').infinitescroll(
-  // {
-  //   animate: false,
-  //   appendCallback: false,
-  //   debug: true,
-  //   navSelector: '.next-link',
-  //   nextSelector: '.next-link .selector',
-  //   itemSelector: 'center > table > tbody > tr:nth-child(3) > td > table > tbody > tr'
-  // },function(newelems)
-  // {
-  //   console.log('got infinite scroll new items',$(this),newelems);
-  //   var newrows = $(newelems);
-  //   var insertionpoint = $(this).find('tbody');
-
-  //   var nextlink = newrows.last();
-  //   nextlink.addClass('next-link');
-  //   nextlink.prepend('<a class="selector" href="' + nextlink.find('.title').children('a').attr('href') + '"></a>');
-  //   for (var i = 0; i < newrows.length - 1; i++)
-  //   {
-  //     insertionpoint.append(newrows.eq(i));
-  //     if (i % 3 === 0)
-  //     {
-  //       console.log('processing',newrows.eq(i));
-  //       HackerNews.processRow(newrows.eq(i).addClass('detail'));
-  //     }
-  //   }
-  // });
 })(jQuery);
