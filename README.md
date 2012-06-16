@@ -2,7 +2,7 @@
 
 Lots of Helvetica, bigger text, extra white space and keyboard shortcuts for a better Hacker News experience.
 
-Version: 0.5 (alpha)
+Version: 0.52 (beta)
 Original Author: Nick Schaden
 http://nickschaden.com
 

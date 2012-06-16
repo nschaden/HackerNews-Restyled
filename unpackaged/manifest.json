@@ -1,6 +1,6 @@
 {
 	"name": "Hacker News Restyled",
-	"version": "0.5",
+	"version": "0.52",
 	"manifest_version": 2,
 	"description": "Lots of helvetica, bigger text, extra white space and soft gradients for a better Hacker News experience.",
 	"icons": { "16" : "icons/icon16.png", "48" : "icons/icon48.png", "128" : "icons/icon128.png" },
@@ -9,13 +9,23 @@
 		"all_frames": true,
 		"css": [ "css/main.css" ],
 		"js": [ "js/jquery.min.js","js/main.js" ],
-		"matches": [ "http://news.ycombinator.com/", "http://news.ycombinator.com/news", "http://news.ycombinator.com/news2", "http://news.ycombinator.com/x*", "http://news.ycombinator.com/newest" ]
+		"matches": [ "http://news.ycombinator.com/", "http://news.ycombinator.com/news", "http://news.ycombinator.com/news2", "http://news.ycombinator.com/x*", "http://news.ycombinator.com/noobstories",
+									"http://news.ycombinator.com/newest", "http://news.ycombinator.com/active", "http://news.ycombinator.com/best", "http://news.ycombinator.com/ask",
+									"http://news.ycombinator.net/", "http://news.ycombinator.net/news", "http://news.ycombinator.net/news2", "http://news.ycombinator.net/x*", "http://news.ycombinator.net/noobstories", 
+									"http://news.ycombinator.net/newest", "http://news.ycombinator.net/active", "http://news.ycombinator.net/best", "http://news.ycombinator.net/ask",
+									"http://news.ycombinator.org/", "http://news.ycombinator.org/news", "http://news.ycombinator.org/news2", "http://news.ycombinator.org/x*", "http://news.ycombinator.org/noobstories",
+									"http://news.ycombinator.org/newest", "http://news.ycombinator.org/active", "http://news.ycombinator.org/best", "http://news.ycombinator.org/ask",
+									"http://hackerne.ws/", "http://hackerne.ws/news", "http://news.ycombinator.net/news2", "http://hackerne.ws/x*", "http://hackerne.ws/noobstories",
+									"http://hackerne.ws/newest", "http://hackerne.ws/active", "http://hackerne.ws/best", "http://hackerne.ws/ask" ]
 	},
 	{
 		"all_frames": true,
 		"css": [ "css/comments.css" ],
 		"js": [ "js/jquery.min.js","js/comments.js" ],
-		"matches": [ "http://news.ycombinator.com/item*", "http://news.ycombinator.com/newcomments" ]
+		"matches": [ "http://news.ycombinator.com/item*", "http://news.ycombinator.com/newcomments", "http://news.ycombinator.com/bestcomments", "http://news.ycombinator.com/lists", "http://news.ycombinator.com/noobcomments",
+								 "http://news.ycombinator.net/item*", "http://news.ycombinator.net/newcomments", "http://news.ycombinator.net/bestcomments", "http://news.ycombinator.net/lists", "http://news.ycombinator.net/noobcomments",
+								 "http://news.ycombinator.org/item*", "http://news.ycombinator.org/newcomments", "http://news.ycombinator.org/bestcomments", "http://news.ycombinator.org/lists", "http://news.ycombinator.org/noobcomments",
+								 "http://hackerne.ws/item*", "http://hackerne.ws/newcomments", "http://hackerne.ws/bestcomments", "http://hackerne.ws/lists", "http://hackerne.ws/noobcomments" ]
 	} ]
 }
 
