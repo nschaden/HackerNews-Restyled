@@ -1,6 +1,6 @@
 {
 	"name": "Hacker News Restyled",
-	"version": "0.52",
+	"version": "0.56",
 	"manifest_version": 2,
 	"description": "Lots of helvetica, bigger text, extra white space and soft gradients for a better Hacker News experience.",
 	"icons": { "16" : "icons/icon16.png", "48" : "icons/icon48.png", "128" : "icons/icon128.png" },
@@ -15,7 +15,7 @@
 									"http://news.ycombinator.net/newest", "http://news.ycombinator.net/active", "http://news.ycombinator.net/best", "http://news.ycombinator.net/ask",
 									"http://news.ycombinator.org/", "http://news.ycombinator.org/news", "http://news.ycombinator.org/news2", "http://news.ycombinator.org/x*", "http://news.ycombinator.org/noobstories",
 									"http://news.ycombinator.org/newest", "http://news.ycombinator.org/active", "http://news.ycombinator.org/best", "http://news.ycombinator.org/ask",
-									"http://hackerne.ws/", "http://hackerne.ws/news", "http://news.ycombinator.net/news2", "http://hackerne.ws/x*", "http://hackerne.ws/noobstories",
+									"http://hackerne.ws/", "http://hackerne.ws/news", "http://hackerne.ws/news2", "http://hackerne.ws/x*", "http://hackerne.ws/noobstories",
 									"http://hackerne.ws/newest", "http://hackerne.ws/active", "http://hackerne.ws/best", "http://hackerne.ws/ask" ]
 	},
 	{
