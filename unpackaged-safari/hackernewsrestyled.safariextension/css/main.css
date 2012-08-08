@@ -148,7 +148,7 @@ body {
 	padding-top: 10px !important;
 }
 .page-main .content .title > a {
-	color: #331e23;
+	color: #331e23 !important;
 	float: left;
 }
 .content .title > .comhead {

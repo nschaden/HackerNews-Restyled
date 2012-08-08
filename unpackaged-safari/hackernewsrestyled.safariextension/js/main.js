@@ -64,12 +64,14 @@ HackerNews =
     // for c, open currently hovered comments link in new window
     if (e.keyCode == 99)
     {
+      e.preventDefault();
       if (hovereditem.length === 1)
         HackerNews.openCommentLink(hovereditem);
     }
     // for s, toggle stats to be always visible or not
     if (e.keyCode == 115)
     {
+      e.preventDefault();
       var content = jQuery('.content');
       if (content.hasClass('show-stats'))
       {
@@ -85,18 +87,21 @@ HackerNews =
     // for v, open currently hovered link in new window
     if (e.keyCode == 118)
     {
+      e.preventDefault();
       if (hovereditem.length === 1)
         HackerNews.openLink(hovereditem);
     }
     // for -, switch to compact visual mode
     if (e.keyCode == 45)
     {
+      e.preventDefault();
       jQuery('.content').addClass('small');
       localStorage.setItem('viewSize','compact');
     }
     // for +, switch to larger visual mode
     if (e.keyCode == 61)
     {
+      e.preventDefault();
       jQuery('.content').removeClass('small');
       localStorage.setItem('viewSize','normal');
     }
