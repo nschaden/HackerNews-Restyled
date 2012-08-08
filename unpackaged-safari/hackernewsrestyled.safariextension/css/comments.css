@@ -1,0 +1,88 @@
+/* Hacker News Restyled - comments
+ *
+ * Default styling for comment pages.
+ *
+ * Applicable patterns:
+ * http://news.ycombinator.com/
+ * http://news.ycombinator.com/news2
+ * http://news.ycombinator.com/x?*
+ */ 
+ 
+ /*=Header
+--------------------------------------------------------------------------------------- */
+.page-comments .header,
+.page-comments center > table > tbody > tr:nth-child(1) {
+	-moz-box-shadow: 0px -1px 1px rgba(58,26,5,0.4);
+	-webkit-box-shadow: 0px -1px 1px rgba(58,26,5,0.4);
+	background: #ed6f00 !important;
+	background-image: -moz-linear-gradient(top, #ed6f00, #d46300) !important;
+  background-image: -ms-linear-gradient(top, #ed6f00, #d46300) !important;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ed6f00), to(#d46300)) !important;
+  background-image: -webkit-linear-gradient(top, #ed6f00, #d46300) !important;
+  background-image: -o-linear-gradient(top, #ed6f00, #d46300) !important;
+  background-image: linear-gradient(top, #ed6f00, #d46300) !important;
+  background-repeat: repeat-x;
+  box-shadow: 0px -1px 1px rgba(58,26,5,0.4);
+	height: 50px;
+}
+.page-comments .header table > tbody > tr,
+.page-comments center > table > tbody > tr:nth-child(1) table > tbody > tr { 
+	background-color: transparent !important;
+}
+.page-comments center > table > tbody > tr:nth-child(1) table {
+	visibility: hidden;
+}
+.page-comments .header table {
+	visibility: visible !important;
+}
+.page-comments .header table td:nth-child(1) {
+	display: none;
+}
+.page-comments .header .pagetop {
+	float: right;
+	text-align: right;
+	width: 100%;
+}
+.page-comments .header .pagetop a {
+	color: #050102;
+	font-size: 14px;
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+	line-height: 50px;
+}
+.page-comments .header .pagetop > a:nth-child(1) {
+	padding-right: 25px;
+}
+.page-comments .header .pagetop b a {
+	color: #050102;
+	float: left;
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	margin-left: 20px;
+}
+.page-comments .header-divider {
+	display: none;
+}
+
+ /*=Content
+--------------------------------------------------------------------------------------- */
+.page-comments table > tbody > tr {
+	background-color: #f5f5f5 !important;
+}
+.page-comments .content {
+	background-color: #f5f5f5;
+	padding: 50px;
+}
+.page-comments .content table td,
+.page-comments .comment,
+.page-comments .comhead,
+.page-comments input {
+	color: #333 !important;
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif !important;
+	font-size: 14px !important;
+}
+.page-comments .comhead {
+	color: rgba(5,1,2,0.3) !important;
+}
+
+
