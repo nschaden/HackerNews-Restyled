@@ -33,7 +33,7 @@ Uninstall like any other extension: Under Chrome go to Window > Extensions and c
 
 ### Safari
 
-For now this Chrome Extension is a distributed only via direct download here on Github:
+For now this Safari Extension is a distributed only via direct download here on Github:
 
 1. [Download](https://github.com/nschaden/HackerNews-Restyled/zipball/master) this package's contents.
 2. Drag the packaged-safari/hackernewsrestyled.safariextz file onto any open tab in Safari.
