@@ -1,4 +1,4 @@
-/* Instapaper Restyled - main
+/* Hacker News Restyled - main
  *
  * Simple keyboard navigation on Hacker News list, reformulation of a few key elements on page load
  *
@@ -176,7 +176,8 @@ HackerNews =
     // add keychecking
     $(window).keypress(function(e) 
     {
-      HackerNews.keyCheck(e);
+      if (e.target.tagName != 'INPUT')
+        HackerNews.keyCheck(e);
     });
   }
   else
